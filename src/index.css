@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+:root,
+html {
+  height: 100%;
+  width: 100%;
+}
+.cleaning-div{
+  grid-area:cleaning;
+}
+.ac-div{
+  grid-area:ac-div;
+}
+.painting-div{
+  grid-area:painting;
+}
+.furniture-div{
+  grid-area:furniture;
+}
+.plumbing-div{
+  grid-area:plumbing;
+}
+.gardening-div{
+  grid-area:gardening;
+}
+.electrical-div{
+  grid-area:electrical;
+}
+.home-ap-div{
+  grid-area:home-ap;
+}
+.grid-box {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap:10px;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "cleaning ac-div painting furniture"
+    "plumbing ac-div electrical furniture"
+    "plumbing gardening electrical home-ap"
+}
