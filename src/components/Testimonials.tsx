@@ -68,12 +68,12 @@ const Testimonials: React.FC = () => {
                                                                         <img src="/image/star.png" alt="" className='w-[2vw]' />
                                                                         <img src="/image/star.png" alt="" className='w-[2vw]' />
                                                                 </div>
-                                                                <p className='text-[2vw] my-[1vh]'>{review.body}</p>
+                                                                <p className='text-[2.2vw] my-[1vh]'>{review.body}</p>
                                                                 <div className="flex flex-row gap-5 my-[1vh]">
                                                                         <div className='bg-[rgba(0,0,0,0.06)] p-1 rounded-full'>
                                                                                 <img src="/svg/profile.svg" alt="" className='w-[2vw]' />
                                                                         </div>
-                                                                        <p className='text-[1.5vw]'>By {review.by}</p>
+                                                                        <p className='text-[1.7vw]'>By {review.by}</p>
                                                                 </div>
                                                         </div>
                                                 </div>

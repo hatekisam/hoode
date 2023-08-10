@@ -11,10 +11,10 @@ const Bid = () => {
                                 <div className="w-[100%] flex flex-row justify-between">
                                         <div className='w-[50%] relative '></div>
                                         <div className='w-[50%]'>
-                                                <p className="text-[rgba(255,255,255,0.4)] uppercase font-medium my-[2vh] text-[1.2vw]">our overview</p>
-                                                <p className='text-[3.5vw] font-medium my-[2vh]'>Simply Bid,Your home, expertly served</p>
-                                                <p className='font-medium text-[rgba(255,255,255,0.4)] my-[2vh] text-[1.5vw]'>Lorem ipsum dolor sit amet consectetur. Felis facilisis amet ornare sagittis vestibulum nibh nulla facilisis vel. Orci in et vitae tellus. orem ipsum.  </p>
-                                                <button className='bg-[#9EE970] px-[2vw] py-[0.3vh] text-black my-[1vh] rounded-full text-[1.5vw]'>Learn more</button>
+                                                <p className="text-[rgba(255,255,255,0.4)] uppercase font-medium my-[2vh] text-[1.4vw]">our overview</p>
+                                                <p className='text-[3.8vw] font-medium my-[2vh]'>Simply Bid,Your home, expertly served</p>
+                                                <p className='font-medium text-[rgba(255,255,255,0.4)] my-[2vh] text-[1.7vw]'>Lorem ipsum dolor sit amet consectetur. Felis facilisis amet ornare sagittis vestibulum nibh nulla facilisis vel. Orci in et vitae tellus. orem ipsum.  </p>
+                                                <button className='bg-[#9EE970] px-[2vw] py-[0.3vh] text-black my-[1vh] rounded-full text-[1.7vw]'>Learn more</button>
                                         </div>
                                 </div>
                         </div>

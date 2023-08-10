@@ -102,15 +102,15 @@ const HomeBanner: React.FC = () => {
                         </div>
                         <div className='my-[4vh] w-[45%]'>
                                 <p className='text-[5vw]'>Get your work done with <span className='text-[rgba(255,255,255,0.5)]'>Hoode</span></p>
-                                <p className='font-medium text-[rgba(255,255,255,0.4)] text-[1.5vw]'>Lorem ipsum dolor sit amet consectetur. Felis facilisis amet ornare sagittis vestibulum nibh nulla facilisis vel. Orci in et vitae tellus. orem ipsum.  vestibulum nibh nu</p>
+                                <p className='font-medium text-[rgba(255,255,255,0.4)] text-[1.7vw]'>Lorem ipsum dolor sit amet consectetur. Felis facilisis amet ornare sagittis vestibulum nibh nulla facilisis vel. Orci in et vitae tellus. orem ipsum.  vestibulum nibh nu</p>
                                 <div className="flex flex-row items-center gap-3 my-[2vh]">
                                         <div className="flex flex-row items-center gap-3 bg-white text-black px-[2vw] py-[0.6vh] rounded-full">
                                                 <img src="/svg/playstore.svg" alt="Playstore" className="w-[1.5vw]" />
-                                                <p className='font-medium text-[1.5vw]'>Google Play</p>
+                                                <p className='font-medium text-[1.7vw]'>Google Play</p>
                                         </div>
                                         <div className="flex flex-row items-center gap-3 bg-[rgba(255,255,255,0.1)] px-[2vw] py-[0.6vh] rounded-full">
                                                 <img src="/svg/apple.svg" alt="App Store" className="w-[1.5vw]" />
-                                                <p className='font-medium text-[1.5vw]'>App Store</p>
+                                                <p className='font-medium text-[1.7vw]'>App Store</p>
                                         </div>
                                 </div>
                         </div>
