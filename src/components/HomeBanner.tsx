@@ -8,7 +8,7 @@ const HomeBanner: React.FC = () => {
                         <img src="/image/texture1.png" alt="" className="w-full h-full absolute  top-0 left-0" />
                         <img src="/image/phone1.png" alt="" className="w-[20vw] absolute  bottom-0 right-[28vw]" />
                         <img src="/image/phone2.png" alt="" className="w-[20vw] absolute  bottom-0 right-[5vw]" />
-                        <div className='flex flex-row justify-between items-center relative'>
+                        <div className='flex flex-row justify-between items-center relative z-50'>
                                 {mobileNav && (
                                         <div className="block md:hidden absolute -bottom-[22vw] right-0 rounded-md  bg-[#232323] p-[2vw]">
                                                 <div className="flex flex-col gap-1 text-[1.5vw]">
