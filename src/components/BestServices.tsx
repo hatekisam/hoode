@@ -11,14 +11,14 @@ const BestServices: React.FC = () => {
                                 <button className='bg-[#232323] rounded-full px-[3vw] py-[1vh] text-white text-[1.5vw]'>Learn more</button>
                         </div>
                         <div className="grid-box text-[1.5vw] ">
-                                <div className="cleaning-div bg-[#F3F3F3] rounded-md flex items-center justify-center">Cleaning</div>
-                                <div className="ac-div bg-[#9EE970] rounded-md flex items-center justify-center">AC Repair</div>
-                                <div className="painting-div bg-[#F3F3F3] rounded-md flex items-center justify-center">Painting</div>
-                                <div className="furniture-div bg-[#F3F3F3] rounded-md flex items-center justify-center">Furniture</div>
-                                <div className="plumbing-div bg-[#F3F3F3] rounded-md flex items-center justify-center">Plumbing</div>
-                                <div className="gardening-div bg-[#F3F3F3] rounded-md flex items-center justify-center">Gardening</div>
-                                <div className="electrical-div bg-[#F3F3F3] rounded-md flex items-center justify-center">Electrical</div>
-                                <div className="home-ap-div bg-[#9EE970] rounded-md flex items-center justify-center">Home Appliances</div>
+                                <div className="cleaning-div bg-[#F3F3F3] rounded-md flex items-center justify-center text-center">Cleaning</div>
+                                <div className="ac-div bg-[#9EE970] rounded-md flex items-center justify-center text-center">AC Repair</div>
+                                <div className="painting-div bg-[#F3F3F3] rounded-md flex items-center justify-center text-center">Painting</div>
+                                <div className="furniture-div bg-[#F3F3F3] rounded-md flex items-center justify-center text-center">Furniture</div>
+                                <div className="plumbing-div bg-[#F3F3F3] rounded-md flex items-center justify-center text-center">Plumbing</div>
+                                <div className="gardening-div bg-[#F3F3F3] rounded-md flex items-center justify-center text-center">Gardening</div>
+                                <div className="electrical-div bg-[#F3F3F3] rounded-md flex items-center justify-center text-center">Electrical</div>
+                                <div className="home-ap-div bg-[#9EE970] rounded-md flex items-center justify-center text-center">Home Appliances</div>
                         </div>
                 </div>
         )
