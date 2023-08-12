@@ -75,7 +75,7 @@ const Testimonials: React.FC = () => {
                                                                         </div>
                                                                         <p className='text-[1.7vw]'>By {review.by}</p>
                                                                 </div>
-                                                        </div>
+                                                        </div>  
                                                 </div>
                                         )
                                 })}
