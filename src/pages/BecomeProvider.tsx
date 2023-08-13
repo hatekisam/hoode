@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet"
 import BecomeBanner from "../components/BecomeBanner"
 import Footer from "../components/Footer"
 import HowItWorks from "../components/HowItWorks"
@@ -7,6 +8,9 @@ import Testimonials from "../components/Testimonials"
 const BecomeProvider = () => {
         return (
                 <div className='w-full h-full overflow-x-hidden'>
+                        <Helmet>
+                                <title>Hoode | Become Provider</title>
+                        </Helmet>
                         <BecomeBanner />
                         <LiveWorld />
                         <HowItWorks />
@@ -17,7 +21,7 @@ const BecomeProvider = () => {
                                         <img src="/image/phone5.png" alt="" className='absolute  bottom-0 w-[33vw] right-[25vw]' />
                                         <div className="w-[100%] flex flex-row justify-between">
                                                 <div className='w-[50%]'>
-                                                        <p className='text-[3.5vw] font-medium my-[2vh]'>You Offer <br />We provide</p>
+                                                        <p className='text-[4.5vw] md:text-[4vw] lg:text-[3.5vw] font-medium my-[2vh]'>You Offer <br />We provide</p>
                                                         <div className="flex flex-row gap-5 my-[1vh]">
                                                                 <button>
                                                                         <img src="/image/playstore.png" alt="Playstore" className='w-[15vw] md:w-[12vw]' />

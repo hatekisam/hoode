@@ -8,10 +8,14 @@ import Corporate from '../components/Corporate'
 import Testimonials from '../components/Testimonials'
 import Optimize from '../components/Optimize'
 import Footer from '../components/Footer'
+import {Helmet} from "react-helmet"
 
 const Home: React.FC = () => {
         return (
                 <div className='w-full h-full overflow-x-hidden p-[1.2vw]'>
+                        <Helmet>
+                                <title>Hoode | Home</title>
+                        </Helmet>
                         <HomeBanner />
                         <BestServices />
                         <Connecting />

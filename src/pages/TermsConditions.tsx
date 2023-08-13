@@ -2,11 +2,14 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Optimize from '../components/Optimize'
 import Footer from '../components/Footer'
+import { Helmet } from 'react-helmet'
 
 const TermsConditions = () => {
-        // text-[45px]
         return (
                 <div className='w-full h-full overflow-x-hidden p-4'>
+                        <Helmet>
+                                <title>Hoode | Terms and Conditions</title>
+                        </Helmet>
                         <Navbar />
                         <div className='bg-[#F2F2F2] rounded-[36px] text-center font-medium mx-[5vw] py-14 my-14'>
                                 <p className='text-[#808080]'>Terms of Use</p>

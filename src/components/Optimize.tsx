@@ -8,13 +8,13 @@ const Optimize = () => {
                         <img src="/image/phone5.png" alt=""  className='absolute  bottom-0 w-[33vw] right-[25vw]'/>
                                 <div className="w-[100%] flex flex-row justify-between">
                                         <div className='w-[50%]'>
-                                                <p className='text-[3.5vw] font-medium my-[2vh]'>Optimize your <br />time & money</p>
+                                                <p className='text-[4.5vw] md:text-[4vw] lg:text-[3.5vw] font-medium my-[2vh]'>Optimize your <br />time & money</p>
                                                 <div className="flex flex-row gap-5 my-[1vh]">
                                                         <button>
-                                                                <img src="/image/playstore.png" alt="Playstore"  className='w-[12vw]'/>
+                                                                <img src="/image/playstore.png" alt="Playstore"  className='w-[15vw] md:w-[12vw]'/>
                                                         </button>
                                                         <button>
-                                                                <img src="/image/appstore.png" alt="App Store"  className='w-[12vw]'/>
+                                                                <img src="/image/appstore.png" alt="App Store"  className='w-[15vw] md:w-[12vw]'/>
                                                         </button>
                                                 </div>
                                         </div>

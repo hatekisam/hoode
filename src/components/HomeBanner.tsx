@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom'
 
 const HomeBanner: React.FC = () => {
         const [mobileNav, setMobileNav] = useState(false)
-        const [changeLanguage,setChangeLanguage] =useState(false)
+        const [changeLanguage, setChangeLanguage] = useState(false)
+        const [language, setLanguage] = useState("Eng(USA)")
         return (
                 <div className='rounded-md w-full text-white bg-[#232323] px-[5vw] py-5 relative'>
                         <img src="/image/texture1.png" alt="" className="w-full h-full absolute  top-0 left-0" />
@@ -13,7 +14,7 @@ const HomeBanner: React.FC = () => {
                                 {mobileNav && (
                                         <div className="block md:hidden absolute top-[110%] right-0 rounded-md  bg-[#232323] p-[2vw]  w-[70vw]">
                                                 {changeLanguage && (
-                                                        <div className='block md:hidden absolute rounded-md  bg-[#232323] p-[2vw] top-[103%] -left-10 w-[30vw]'>
+                                                        <div className='block md:hidden absolute rounded-md  bg-[#232323] p-[2vw] top-[103%] -left-10 w-[30vw] z-30'>
                                                                 <div className="flex flex-row justify-between">
                                                                         <div></div>
                                                                         <button onClick={() => setChangeLanguage(false)} >
@@ -22,17 +23,24 @@ const HomeBanner: React.FC = () => {
                                                                                 </svg>
                                                                         </button>
                                                                 </div>
-                                                                <button onClick={() => setChangeLanguage(false)} className="flex flex-row gap-3 items-center p-1  rounded-md ">
+                                                                <button onClick={() => {
+                                                                        setChangeLanguage(false)
+                                                                        setLanguage("Arab")
+                                                                        console.log("FAsdfasd")
+                                                                }} className="flex flex-row gap-3 items-center p-1  rounded-md ">
                                                                         <p className='font-medium'>Arab</p>
                                                                 </button>
-                                                                <button onClick={() => setChangeLanguage(false)} className="flex flex-row gap-3 items-center p-1  rounded-md ">
+                                                                <button onClick={() => {
+                                                                        setChangeLanguage(false)
+                                                                        setLanguage("Eng(USA)")
+                                                                }} className="flex flex-row gap-3 items-center p-1  rounded-md ">
                                                                         <p className='font-medium'>Eng(USA)</p>
                                                                 </button>
-                                                                <button onClick={() => setChangeLanguage(false)} className="flex flex-row gap-3 items-center p-1  rounded-md ">
+                                                                <button onClick={() => {
+                                                                        setChangeLanguage(false)
+                                                                        setLanguage("Eng(UK)")
+                                                                }} className="flex flex-row gap-3 items-center p-1  rounded-md ">
                                                                         <p className='font-medium'>Eng(UK)</p>
-                                                                </button>
-                                                                <button onClick={() => setChangeLanguage(false)} className="flex flex-row gap-3 items-center p-1  rounded-md ">
-                                                                        <p className='font-medium'>Arab</p>
                                                                 </button>
                                                         </div>)}
                                                 <div className="flex flex-col gap-1  text-sm w-full">
@@ -49,10 +57,10 @@ const HomeBanner: React.FC = () => {
                                                         <Link to={"/contact-us"}>Contact us</Link>
                                                         <div className='flex flex-row  items-center  justify-between '>
                                                                 <button className="flex flex-row gap-3 items-center  py-[0.8vh]  px-[2vw]" onClick={() => setChangeLanguage(true)}>
-                                                                        <img src="/image/usa.png" alt="United States English" />
-                                                                        <p className='font-medium'>Eng</p>
+                                                                        {language === "Eng(USA)" ? <img src="/image/usa.png" alt="United States English" className='w-[4vw]'/> : language === "Eng(UK)" ? <img src="/image/uk.png" alt="United Kingdom" className='w-[4vw]' /> : <img src="/image/arab.png" alt="Arab" className='w-[4vw]' />}
+                                                                        <p className='font-medium'>{language}</p>
                                                                 </button>
-                                                                <button className='text-black font-medium bg-[#9EE970] py-[0.8vh]  px-[2vw]  rounded-full'>Become a Provider</button>
+                                                                <Link to={"/become-provider"} className='text-black font-medium bg-[#9EE970] py-[0.8vh]  px-[2vw]  rounded-full'>Become a Provider</Link>
                                                         </div>
                                                 </div>
                                         </div>
@@ -74,25 +82,31 @@ const HomeBanner: React.FC = () => {
                                                                         </svg>
                                                                 </button>
                                                         </div>
-                                                        <div className="flex flex-row gap-3 items-center p-1  rounded-md ">
+                                                        <button onClick={() => {
+                                                                setChangeLanguage(false)
+                                                                setLanguage("Arab")
+                                                        }} className="flex flex-row gap-3 items-center p-1  rounded-md ">
                                                                 <p className='font-medium'>Arab</p>
-                                                        </div>
-                                                        <div className="flex flex-row gap-3 items-center p-1  rounded-md ">
+                                                        </button>
+                                                        <button onClick={() => {
+                                                                setChangeLanguage(false)
+                                                                setLanguage("Eng(USA)")
+                                                        }} className="flex flex-row gap-3 items-center p-1  rounded-md ">
                                                                 <p className='font-medium'>Eng(USA)</p>
-                                                        </div>
-                                                        <div className="flex flex-row gap-3 items-center p-1  rounded-md ">
+                                                        </button>
+                                                        <button onClick={() => {
+                                                                setChangeLanguage(false)
+                                                                setLanguage("Eng(UK)")
+                                                        }} className="flex flex-row gap-3 items-center p-1  rounded-md ">
                                                                 <p className='font-medium'>Eng(UK)</p>
-                                                        </div>
-                                                        <div className="flex flex-row gap-3 items-center p-1  rounded-md ">
-                                                                <p className='font-medium'>Arab</p>
-                                                        </div>
+                                                        </button>
                                                 </div>
                                         )}
-                                        <div className="flex flex-row gap-3 items-center p-1 hover:border rounded-md transition-all  relative" onClick={() => setChangeLanguage(true)}>
-                                                <img src="/image/usa.png" alt="United States English" />
-                                                <p className='font-medium'>Eng</p>
+                                        <div className="flex flex-row gap-3 items-center p-1 border border-[#232323] hover:border rounded-md transition-all  relative" onClick={() => setChangeLanguage(true)}>
+                                                {language === "Eng(USA)" ? <img src="/image/usa.png" alt="United States English" /> : language === "Eng(UK)" ? <img src="/image/uk.png" alt="United Kingdom" className='w-[2vw]' /> : <img src="/image/arab.png" alt="Arab" className='w-[2vw]' />}
+                                                <p className='font-medium'>{language}</p>
                                         </div>
-                                        <button className='text-black font-medium bg-[#9EE970] py-4  px-5 rounded-full'>Become a Provider</button>
+                                        <Link to={"/become-provider"} className='text-black font-medium bg-[#9EE970] py-4  px-5 rounded-full'>Become a Provider</Link>
                                 </div>
                                 <button className="block md:hidden" onClick={() => setMobileNav(true)}>
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-5 h-5 fill-white">

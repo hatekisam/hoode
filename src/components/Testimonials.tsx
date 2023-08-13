@@ -53,10 +53,10 @@ const Testimonials: React.FC = () => {
                 }
         ]
         return (
-                <div className='w-full text-center py-5'>
+                <div className='w-full text-center py-[2vw] '>
                         <p className='text-[2.4vw] md:text-[2vw] lg:text-[1.2vw] text-[rgba(0,0,0,0.4)] font-medium'>Testmonials</p>
                         <p className='text-[4.5vw] md:text-[4vw] lg:text-[3.5vw] font-medium'>User Reviews</p>
-                        <Carousel responsive={responsive} draggable renderDotsOutside={false} showDots infinite className="owl-carousel owl-theme skill-slider my-10 pb-20">
+                        <Carousel responsive={responsive} draggable renderDotsOutside={false} showDots infinite className="owl-carousel owl-theme skill-slider my-[2vw] pb-[5vw]">
                                 {reviews.map((review, index) => {
                                         return (
                                                 <div key={index} className='w-full flex items-center justify-center'>
@@ -68,12 +68,12 @@ const Testimonials: React.FC = () => {
                                                                         <img src="/image/star.png" alt="" className='w-[2vw]' />
                                                                         <img src="/image/star.png" alt="" className='w-[2vw]' />
                                                                 </div>
-                                                                <p className='text-[2.2vw] my-[1vh]'>{review.body}</p>
-                                                                <div className="flex flex-row gap-5 my-[1vh]">
+                                                                <p className='text-[3vw] md:text-[2.4vw] lg:text-[1.8vw] my-[1vh]'>{review.body}</p>
+                                                                <div className="flex flex-row gap-5 my-[1vh] items-center">
                                                                         <div className='bg-[rgba(0,0,0,0.06)] p-1 rounded-full'>
-                                                                                <img src="/svg/profile.svg" alt="" className='w-[2vw]' />
+                                                                                <img src="/svg/profile.svg" alt="" className='w-[4vw] md:w-[3vw] lg:w-[2vw]' />
                                                                         </div>
-                                                                        <p className='text-[1.7vw]'>By {review.by}</p>
+                                                                        <p className='text-[2.3vw] md:text-[2vw] lg:text-[1.7vw]'>By {review.by}</p>
                                                                 </div>
                                                         </div>  
                                                 </div>

@@ -102,12 +102,12 @@ const BecomeBanner = () => {
                                 <p className='text-[5vw]'>Boost your earnings <br /> with       <span className='text-[rgba(255,255,255,0.5)]'>Hoode</span></p>
                                 <div className="flex flex-row items-center  justify-center gap-3 my-[1vh]">
                                         <div className="flex flex-row items-center gap-3 bg-white text-black px-[2vw] py-[0.6vh] rounded-full">
-                                                <img src="/svg/playstore.svg" alt="Playstore" className="w-[1.5vw]" />
-                                                <p className='font-medium text-[1.7vw]'>Google Play</p>
+                                                <img src="/svg/playstore.svg" alt="Playstore" className="w-[2vw] md:w-[1.5vw]" />
+                                                <p className='font-medium text-[2.2vw] md:text-[1.7vw]'>Google Play</p>
                                         </div>
                                         <div className="flex flex-row items-center gap-3 bg-[rgba(255,255,255,0.1)] px-[2vw] py-[0.6vh] rounded-full">
-                                                <img src="/svg/apple.svg" alt="App Store" className="w-[1.5vw]" />
-                                                <p className='font-medium text-[1.7vw]'>App Store</p>
+                                                <img src="/svg/apple.svg" alt="App Store" className="w-[2vw] md:w-[1.5vw]" />
+                                                <p className='font-medium text-[2.2vw] md:text-[1.7vw]'>App Store</p>
                                         </div>
                                 </div>
                         </div>
