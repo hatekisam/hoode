@@ -1,0 +1,23 @@
+<svg width="200" height="160" viewBox="0 0 200 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.5" d="M32.7227 65.072L47.01 53.0482C47.6205 52.5344 48.393 52.2527 49.191 52.2527C62.1839 52.2527 72.5368 52.2527 82.8098 52.2527M167.277 65.072L155.578 53.2565C154.941 52.6141 154.075 52.2527 153.171 52.2527H119.589" stroke="#BFA1FE" stroke-width="1.69344" stroke-linecap="round" stroke-linejoin="round"/>
+<path opacity="0.5" d="M57.0383 157.564C57.0383 157.564 42.5667 157.564 40.9019 157.564C40.9019 153.978 40.9019 155.066 40.9019 153.106H32.8888C31.0183 153.106 29.502 151.59 29.502 149.72V68.703C29.502 66.8325 31.0183 65.3162 32.8888 65.3162H167.112C168.982 65.3162 170.498 66.8325 170.498 68.703V149.72C170.498 151.59 168.982 153.106 167.112 153.106C164.604 153.106 162.038 153.106 159.427 153.106C159.427 154.426 159.427 155.194 159.427 157.628C157.219 157.628 145.682 157.628 142.971 157.628M57.0383 157.564C57.0383 157.564 57.0383 155.579 57.0383 153.106M57.0383 157.564V153.106M57.0383 153.106C58.3337 153.106 102.379 153.106 142.971 153.106M142.971 153.106C142.971 153.106 142.971 155.367 142.971 157.628M142.971 153.106V157.628" stroke="#BFA1FE" stroke-width="1.69344" stroke-linecap="round" stroke-linejoin="round"/>
+<rect opacity="0.5" x="40.1406" y="75.9572" width="119.714" height="66.5078" rx="3.38688" stroke="#BFA1FE" stroke-width="1.69344" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M68.0371 58.6626L133.896 58.6626" stroke="#BFA1FE" stroke-width="2.54016" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M78.5957 122.817L90.6046 122.817" stroke="#BFA1FE" stroke-width="1.88914" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M52.1396 122.817L64.1485 122.817" stroke="#BFA1FE" stroke-width="1.88914" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="71.3739" cy="122.816" r="7.22545" stroke="#BFA1FE" stroke-width="2.20147"/>
+<circle cx="71.3705" cy="122.817" r="2.57948" stroke="#BFA1FE" stroke-width="2.20147"/>
+<path d="M127.892 31.7738C127.892 44.8047 118.623 55.6705 106.318 58.1373C104.6 58.4817 101.004 58.6624 101.004 58.6624C101.004 58.6624 97.4074 58.4817 95.6894 58.1373C83.3846 55.6705 74.1152 44.8047 74.1152 31.7738C74.1152 16.9237 86.1537 4.88525 101.004 4.88525C115.854 4.88525 127.892 16.9237 127.892 31.7738Z" stroke="#BFA1FE" stroke-width="2.54016"/>
+<circle cx="101.001" cy="31.774" r="20.7586" stroke="#BFA1FE" stroke-width="0.846721" stroke-linecap="round" stroke-dasharray="0.85 5.08"/>
+<rect x="92.2698" y="32.3369" width="12.9015" height="12.9015" transform="rotate(-45 92.2698 32.3369)" stroke="#BFA1FE" stroke-width="2.54016"/>
+<circle cx="119.694" cy="111.078" r="1.86697" fill="#BFA1FE"/>
+<circle cx="119.694" cy="118.506" r="1.86697" fill="#BFA1FE"/>
+<circle cx="119.694" cy="125.934" r="1.86697" fill="#BFA1FE"/>
+<circle cx="127.894" cy="111.078" r="1.86697" fill="#BFA1FE"/>
+<circle cx="127.894" cy="118.506" r="1.86697" fill="#BFA1FE"/>
+<circle cx="127.894" cy="125.934" r="1.86697" fill="#BFA1FE"/>
+<circle cx="136.088" cy="111.078" r="1.86697" fill="#BFA1FE"/>
+<circle cx="136.088" cy="118.506" r="1.86697" fill="#BFA1FE"/>
+<circle cx="136.088" cy="125.934" r="1.86697" fill="#BFA1FE"/>
+<rect opacity="0.16" x="117.615" y="93.082" width="20.3426" height="7.42786" rx="1.69344" fill="#BFA1FE"/>
+</svg>

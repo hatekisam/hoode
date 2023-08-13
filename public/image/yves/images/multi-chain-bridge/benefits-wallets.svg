@@ -1,0 +1,12 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="payment">
+<g id="Group 4648">
+<rect id="bg" width="48" height="48" rx="4" fill="#637AA6"/>
+<g id="Group 4647">
+<path id="Vector" d="M31.3333 15H16.6667C14.6416 15 13 16.6416 13 18.6667V28.4444C13 30.4695 14.6416 32.1111 16.6667 32.1111H31.3333C33.3584 32.1111 35 30.4695 35 28.4444V18.6667C35 16.6416 33.3584 15 31.3333 15Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M35 20.5557L29 20.5557C27.3431 20.5557 26 21.8988 26 23.5557V23.5557C26 25.2125 27.3431 26.5557 29 26.5557L35 26.5557" stroke="white" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<circle id="Ellipse 291" cx="29" cy="23.5557" r="1" fill="white"/>
+</g>
+</g>
+</g>
+</svg>

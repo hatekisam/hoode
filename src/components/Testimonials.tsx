@@ -54,8 +54,8 @@ const Testimonials: React.FC = () => {
         ]
         return (
                 <div className='w-full text-center py-5'>
-                        <p className='text-[1.2vw] text-[rgba(0,0,0,0.4)] font-medium'>Testmonials</p>
-                        <p className='text-[3.5vw] font-medium'>User Reviews</p>
+                        <p className='text-[2.4vw] md:text-[2vw] lg:text-[1.2vw] text-[rgba(0,0,0,0.4)] font-medium'>Testmonials</p>
+                        <p className='text-[4.5vw] md:text-[4vw] lg:text-[3.5vw] font-medium'>User Reviews</p>
                         <Carousel responsive={responsive} draggable renderDotsOutside={false} showDots infinite className="owl-carousel owl-theme skill-slider my-10 pb-20">
                                 {reviews.map((review, index) => {
                                         return (

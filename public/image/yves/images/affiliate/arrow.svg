@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="77px" height="59px" viewBox="0 0 77 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Arrow</title>
+    <defs></defs>
+    <g id="affilate" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="affilate-sign-in-2" transform="translate(-366.000000, -292.000000)" stroke="#3BEE81" stroke-width="2">
+            <g id="Group-2" transform="translate(365.000000, 284.000000)">
+                <path d="M73,5 C64.4501272,24.1310221 43.1167939,44.4643554 9,66" id="Path-2" transform="translate(41.000000, 35.500000) rotate(8.000000) translate(-41.000000, -35.500000) "></path>
+                <polyline id="Path-57" transform="translate(5.524629, 61.154859) scale(-1, 1) rotate(-154.000000) translate(-5.524629, -61.154859) " points="8.52462949 55.154859 2.52462949 61.154859 8.52462949 67.154859"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

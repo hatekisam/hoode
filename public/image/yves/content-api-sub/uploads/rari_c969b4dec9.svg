@@ -1,0 +1,28 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_4017_53694)">
+<circle cx="10" cy="10" r="10" fill="#FF74F1"/>
+<mask id="mask0_4017_53694" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
+<circle cx="10" cy="10" r="10" fill="#FF74F1"/>
+</mask>
+<g mask="url(#mask0_4017_53694)">
+<g filter="url(#filter0_f_4017_53694)">
+<circle cx="4.375" cy="4.6875" r="10" fill="url(#paint0_radial_4017_53694)"/>
+</g>
+</g>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13.9773 8.77415C13.9773 9.54724 13.5394 9.93176 13.0472 10.0653C13.6362 10.2475 14.0625 10.7453 14.0625 11.5346V12.9836H11.8148V11.6075C11.8148 11.1865 11.5746 11.0165 11.1638 11.0165H8.49764V12.9836H6.25V7.1875H11.5901C12.9309 7.1875 13.9773 7.48702 13.9773 8.77415ZM8.49865 8.80688H11.5372V8.80713C11.5417 8.80696 11.5463 8.80688 11.5509 8.80688C11.7598 8.80688 11.9292 8.98378 11.9292 9.20201C11.9292 9.42023 11.7598 9.59714 11.5509 9.59714C11.5463 9.59714 11.5417 9.59706 11.5372 9.59689V9.59714H8.49865V8.80688Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_f_4017_53694" x="-9.625" y="-9.3125" width="28" height="28" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="2" result="effect1_foregroundBlur_4017_53694"/>
+</filter>
+<radialGradient id="paint0_radial_4017_53694" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(4.375 4.6875) rotate(90) scale(10)">
+<stop stop-color="#1054FF"/>
+<stop offset="1" stop-color="#609BFF"/>
+</radialGradient>
+<clipPath id="clip0_4017_53694">
+<rect width="20" height="20" fill="white"/>
+</clipPath>
+</defs>
+</svg>
